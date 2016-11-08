@@ -24,7 +24,7 @@ html, body, .cover {
 .cover-text h1 {
 	margin: 0;
 	font-size: 70px;
-	letter-spacing: -3px; 
+	letter-spacing: -3px;
 }
 
 nav.navbar-inverse {
@@ -33,7 +33,7 @@ nav.navbar-inverse {
 }
 
 .testimonial {
-	background: #222;	
+	background: #222;
 }
 
 blockquote {
@@ -62,9 +62,15 @@ section {
 }
 
 h1 {
-    
+
     color: black;
-    
+
+}
+
+h4 {
+
+		color: black;
+
 }
 
 .front {
@@ -126,4 +132,3 @@ footer a {
 		padding: 20px;
 	}
 }
-
