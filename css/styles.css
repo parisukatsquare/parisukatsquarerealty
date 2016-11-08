@@ -96,8 +96,17 @@ h2 + p {
     text-justify: inter-word;
 }
 
-#services {
-    background: #FFF8E1;
+#why-us {
+    background-color: dimgrey
+    
+}
+
+#why-us div div div p, 
+#why-us div div div h3,
+#why-us h2 {
+    
+    color: gainsboro
+    
 }
 
 #team {
