@@ -46,8 +46,8 @@ blockquote {
 }
 
 blockquote cite {
-	display: block;
-	text-align: right;
+	/*display: block;*/
+	/*text-align: right;*/
 	text-transform: uppercase;
 	font-family: Helvetica, Arial, sans-serif;
 	font-style: normal;
