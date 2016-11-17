@@ -125,6 +125,13 @@ footer a {
 	color: orange;
 }
 
+.fbcontact {
+	text-align: center;
+	color: black;
+	display: table-cell;
+	vertical-align: middle;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 568px) {
@@ -134,4 +141,8 @@ footer a {
 	section {
 		padding: 20px;
 	}
+}
+
+.colorizeblue {
+    background-color: aquamarine;
 }
