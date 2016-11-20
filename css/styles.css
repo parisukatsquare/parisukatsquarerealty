@@ -146,3 +146,8 @@ footer a {
 .colorizeblue {
     background-color: aquamarine;
 }
+
+.row-fluid {
+    min-height: 800px;
+    padding-bottom: 20px;
+}
