@@ -132,6 +132,21 @@ footer a {
 	vertical-align: middle;
 }
 
+.row-fluid {
+    min-height: 800px;
+    padding-bottom: 20px;
+}
+
+.colorizeblue {
+    background-color: aquamarine;
+}
+
+.property-row {
+    padding-bottom: 20px;
+}
+
+
+
 /* Media Queries */
 
 @media only screen and (max-width: 568px) {
@@ -141,13 +156,26 @@ footer a {
 	section {
 		padding: 20px;
 	}
+    
+
+
+
 }
 
-.colorizeblue {
-    background-color: aquamarine;
-}
+@media only screen and (max-width: 360px) {
+	.cover h1{
+		font-size: 40px;
+	}
+    
+    .property-item {
+        margin-left: -30px; 
+        padding-bottom: 10px;
+    }
+    
+    .property-row {
+    padding-bottom: 0px;
+    }
+    
 
-.row-fluid {
-    min-height: 800px;
-    padding-bottom: 20px;
+
 }
