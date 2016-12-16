@@ -3,7 +3,9 @@ html, body, .cover {
 }
 
 .cover {
-	background: url('../img/couchfriends.jpg') center center no-repeat;
+    width: 1250px;
+    margin: 0 auto;
+	background: url('../img/couchfriends.webp') center center no-repeat;
     display: table;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -12,6 +14,19 @@ html, body, .cover {
     padding: 0 20%;
 
     box-shadow: inset 0 0 100px #000;
+}
+
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100;Green+3D+%231 */
+background: #b4ddb4; /* Old browsers */
+background: -moz-linear-gradient(top,  #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .cover-text {
@@ -58,7 +73,17 @@ blockquote cite {
 }
 
 section {
-	padding: 100px;
+    width: 1250px;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+
+#services {
+    background-color: white;
+}
+
+#why-us {
+    background-color: white;
 }
 
 h1 {
@@ -90,16 +115,12 @@ h2 + p {
     text-justify: inter-word;
 }
 
-#why-us {
-    background-color: dimgrey
-    
-}
 
 #why-us div div div p, 
 #why-us div div div h3,
 #why-us h2 {
     
-    color: gainsboro
+    color: black;
     
 }
 
@@ -142,10 +163,26 @@ footer a {
 }
 
 .property-row {
+    position: relative;
     padding-bottom: 20px;
 }
 
+.projects-row {
+    background: blue;
+    height: 500px;
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
 
+.projects-row div {
+    
+    width: 100%;
+    height: 200px;
+    background: pink;
+    display: inline-block;
+    
+}
 
 /* Media Queries */
 

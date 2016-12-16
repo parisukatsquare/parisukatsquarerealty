@@ -1,0 +1,54 @@
+
+h2, div, h2, p {
+    padding: 0;
+    margin: 0;
+}
+#projects-section {
+    background-color: aliceblue;
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+h2 {
+    text-align: left;
+}
+.clear-float {
+    clear: both;
+}
+.square {
+    margin: 20px 0px 20px 20px;
+    height: 240px;
+    width: 240px;
+    border-style: solid 2px;
+    border-color: orangered;
+    border-radius: 5px;
+}
+
+.square a {
+    text-align: center;
+    
+}
+
+.square a:link {
+    color: black;
+    
+}
+
+.square a:visited {
+    color: saddlebrown;
+    
+}
+
+.white-background {
+    background-color: white;
+}
+
+.red-background {
+    background-color: red;
+}
+
+
+.blue-background {
+    background-color: blue;
+}

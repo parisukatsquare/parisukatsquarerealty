@@ -61,11 +61,10 @@
         <div class="cover">
             <div class="cover-text">
                 <h1>
-                    Your real property needs, we are here to serve.
+                    Looking for a new home?
                 </h1>
                 <p class="lead front">
-                    We're that "cool" vegan uncle who doesn't have kids and somehow
-                    makes a living taking care of their niece and nephew.
+                    Your real property needs, we are here to serve.
                 </p>
                 
                 <br/><br/>
@@ -117,6 +116,11 @@ You may also look into our Leasing Portfolio by browsing our Facebook Leasing Pa
             <h2>Why Parisukat Square?</h2>
             <div class="container">
                 <div class="row">
+                    <div class="col-sm-12">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eleifend dolor interdum libero mollis, id condimentum mi laoreet. Quisque eget sapien sed ipsum tempor scelerisque in ac velit. Ut luctus nunc eget magna fringilla, nec tempus diam sollicitudin. Praesent commodo lacus eget ex pellentesque commodo. Curabitur molestie eleifend tristique. Nam velit eros, malesuada vel ultricies vel, pretium quis lectus. Curabitur laoreet, nisl quis hendrerit posuere, nisi arcu cursus eros, at dignissim nibh diam sed nibh.
+
+Quisque eros tellus, lacinia at arcu et, commodo sollicitudin neque. Donec efficitur finibus est ac maximus. Duis nec mauris libero. Cras consequat erat nulla, consectetur elementum mauris rutrum vitae. Donec molestie venenatis dolor interdum commodo. Aliquam erat volutpat. Morbi diam sem, ultrices non enim sit amet, blandit lacinia sem. Donec ut hendrerit tortor.</p>
+                    </div>
                     <div class="col-sm-4">
                         <h3>Trained Professional</h3>
                         <p class="text-justify">
@@ -141,7 +145,7 @@ You may also look into our Leasing Portfolio by browsing our Facebook Leasing Pa
 
         <section id="team">
             <div class="container">
-                <h2>Meet our team</h2>
+                <h2>Meet our team&hellip;</h2>
                 <div class="row">
                     <div class="col-sm-3">
                         <img src="img/img-xsq1.jpg" alt="Woman's face" class="img-circle">
@@ -168,7 +172,52 @@ You may also look into our Leasing Portfolio by browsing our Facebook Leasing Pa
                 </div>
             </div>
         </section>
+<section class="fullscreen" id="contactus">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="text-center">Contact Us</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-1">
+                        <form class="form-horizontal" >
+                            <div class="form-group">
+                                <label class="col-xs-10 col-sm-3 col-md-3      col-xs-offset-1 col-sm-offset-0 col-md-offset-0 control-label" for="formName">Name</label>
+                                <div    class="col-xs-10 col-sm-9 col-md-9      col-xs-offset-1 col-sm-offset-0 col-md-offset-0  ">
+                                    <input class="form-control" type="text" name="formName">
+                                </div>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label class="col-xs-10 col-sm-3 col-md-3      col-xs-offset-1 col-sm-offset-0 col-md-offset-0 control-label" for="formEmail">E-mail</label>
+                                <div    class="col-xs-10 col-sm-9 col-md-9      col-xs-offset-1 col-sm-offset-0 col-md-offset-0  ">
+                                    <input class="form-control" type="email" name="formEmail">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label  class="col-xs-10 col-sm-3 col-md-3      col-xs-offset-1 col-sm-offset-0 col-md-offset-0 control-label" for="formSubject">Subject</label>
+                                <div    class="col-xs-10 col-sm-9 col-md-9      col-xs-offset-1 col-sm-offset-0 col-md-offset-0  ">
+                                    <input class="form-control" type="text" name="formSubject">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label  class="col-xs-10 col-sm-3 col-md-3      col-xs-offset-1 col-sm-offset-0 col-md-offset-0 control-label" for="formMessage">Message</label>
+                                <div    class="col-xs-10 col-sm-9 col-md-9      col-xs-offset-1 col-sm-offset-0 col-md-offset-0  ">
+                                    <textarea class="form-control" name="formMessage" rows="10"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-10 col-sm-9 col-md-9 col-xs-offset-1 col-sm-offset-3 col-md-offset-3">
+                                    <input class="btn btn-success btn-block" type="submit" name="">    
+                                </div>
+                                
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
 
+            </div>
+        </section>
         <section id="contactus">
             
             <div class="container">
