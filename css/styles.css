@@ -185,26 +185,7 @@ footer a {
 }
 
 /* Media Queries */
-
-@media only screen and (max-width: 568px) {
-    .cover {
-        width: 100%;
-    }
-    section {
-        width: 100%;
-    }
-	.cover h1{
-		font-size: 40px;
-	}
-	section {
-		padding: 20px;
-	}
-    
-
-
-
-}
-
+/*
 @media only screen and (max-width: 360px) {
     .cover {
         width: 100%;
@@ -228,5 +209,148 @@ footer a {
     }
     
 
+}
+
+@media only screen and (max-width: 568px) {
+    .cover {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+	.cover h1{
+		font-size: 40px;
+	}
+	section {
+		padding: 20px;
+	}
 
 }
+ FOR IPAD 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    
+    .cover {
+        width: 100%;
+    }
+    section {
+        width: 768px;
+    }
+	.cover h1{
+		font-size: 40px;
+	}
+	section {
+		padding: 20px;
+	}
+    
+}
+
+*/
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+.cover {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+	.cover h1{
+		font-size: 40px;
+	}
+	section {
+		padding: 20px;
+	}
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+.cover {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+	.cover h1{
+		font-size: 40px;
+	}
+	section {
+		padding: 20px;
+	}
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+.cover {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+	.cover h1{
+		font-size: 40px;
+	}
+	section {
+		padding: 20px;
+	}
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+.cover {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+	.cover h1{
+		font-size: 40px;
+	}
+	section {
+		padding: 20px;
+	}
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+.cover {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+	.cover h1{
+		font-size: 40px;
+	}
+	section {
+		padding: 20px;
+	}
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+
+
