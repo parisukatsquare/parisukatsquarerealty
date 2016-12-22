@@ -179,45 +179,55 @@ Quisque eros tellus, lacinia at arcu et, commodo sollicitudin neque. Donec effic
                 </div>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-1">
+                        <div id="error"></div>
                         <form class="form-horizontal" >
                             <div class="form-group">
                                 <label class="col-xs-10 col-sm-3 col-md-3      col-xs-offset-1 col-sm-offset-0 col-md-offset-0 control-label" for="formName">Name</label>
                                 <div    class="col-xs-10 col-sm-9 col-md-9      col-xs-offset-1 col-sm-offset-0 col-md-offset-0  ">
-                                    <input class="form-control" type="text" name="formName">
+                                    <input id="formName" class="form-control" type="text" name="formName">
                                 </div>
                                 
                             </div>
                             <div class="form-group">
-                                <label class="col-xs-10 col-sm-3 col-md-3      col-xs-offset-1 col-sm-offset-0 col-md-offset-0 control-label" for="formEmail">E-mail</label>
+                                <label class="col-xs-10 col-sm-3 col-md-3      col-xs-offset-1 col-sm-offset-0 col-md-offset-0 control-label" for="formEmail">Email</label>
                                 <div    class="col-xs-10 col-sm-9 col-md-9      col-xs-offset-1 col-sm-offset-0 col-md-offset-0  ">
-                                    <input class="form-control" type="email" name="formEmail">
+                                    <input id="formEmail" class="form-control" type="email" name="formEmail">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label  class="col-xs-10 col-sm-3 col-md-3      col-xs-offset-1 col-sm-offset-0 col-md-offset-0 control-label" for="formSubject">Subject</label>
                                 <div    class="col-xs-10 col-sm-9 col-md-9      col-xs-offset-1 col-sm-offset-0 col-md-offset-0  ">
-                                    <input class="form-control" type="text" name="formSubject">
+                                    <input id="formSubject" class="form-control" type="text" name="formSubject">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label  class="col-xs-10 col-sm-3 col-md-3      col-xs-offset-1 col-sm-offset-0 col-md-offset-0 control-label" for="formMessage">Message</label>
                                 <div    class="col-xs-10 col-sm-9 col-md-9      col-xs-offset-1 col-sm-offset-0 col-md-offset-0  ">
-                                    <textarea class="form-control" name="formMessage" rows="10"></textarea>
+                                    <textarea id="formMessage" class="form-control" name="formMessage" rows="10"></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-xs-10 col-sm-9 col-md-9 col-xs-offset-1 col-sm-offset-3 col-md-offset-3">
-                                    <input class="btn btn-success btn-block" type="submit" name="">    
+                                    <input id="submit" class="btn btn-success btn-block" type="submit" name="">    
                                 </div>
                                 
                             </div>
                         </form>
+                        
+                        <br>
+                        <h3 class="text-center">DIRECT LINE</h3>
+                        <h4 class="text-center" style="font-family: 'Itim', cursive;">
+                            Contact Number: 
+                            +63916 314 4062 <br/><br/>
+                            E-mail: support@parisukatsquare.com
+                        </h4>
                     </div>
                     
                 </div>
 
             </div>
         </section>
+<!--
         <section id="contactus">
             
             <div class="container">
@@ -239,6 +249,7 @@ Quisque eros tellus, lacinia at arcu et, commodo sollicitudin neque. Donec effic
                     </div>
                 </div>
             </div>
+-->
                 <!-- <div class="page-header"></div>
                 <div class="row">
                     <p class="text-center">
@@ -297,6 +308,23 @@ Quisque eros tellus, lacinia at arcu et, commodo sollicitudin neque. Donec effic
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/bootstrap.js"></script>
+    
+        <script type="text/javascript">
+        
+            $("form").submit(function (e) {
+               e.preventDefault();
+                var error = "";
+                
+                if($("#subject").val() == "") {
+                    error+="<p>The subject field is required.</p>";
+                }
+                
+                $("#error").html(error);
+            });
+            
+            
+            
+        </script>
         
         <!--<div id="fb-root"></div> -->
         <script>(function(d, s, id) {
